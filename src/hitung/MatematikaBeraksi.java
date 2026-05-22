@@ -2,15 +2,15 @@ package hitung;
 
 public class MatematikaBeraksi {
    public static void main(String[] args) {
-        Matematika matematika = new Matematika(20, 10);
+        // Membuat objek
+        Matematika nadia = new Matematika(0, 0);
 
-       
-        System.out.println("Penjumlahan : " + matematika.setPenjumlahan());
+        System.out.println("Penjumlahan : " + nadia.setPenjumlahan());
         
-        System.out.println("Pengurangan : " + matematika.setPengurangan());
+        System.out.println("Pengurangan : " + nadia.setPengurangan());
         
-        System.out.println("Perkalian : " + matematika.setPerkalian());
+        System.out.println("Perkalian : " + nadia.setPerkalian());
         
-        System.out.println("Pembagian : " + matematika.setPembagian());
+        System.out.println("Pembagian : " + nadia.setPembagian());
     }
 }
