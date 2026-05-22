@@ -1,7 +1,7 @@
 package hitung;
 
 public class Matematika {
-      double bil1;
+    double bil1;
     double bil2;
 
     // Constructor
